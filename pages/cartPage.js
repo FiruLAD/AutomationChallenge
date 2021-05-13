@@ -8,7 +8,7 @@ export default class cartPage {
         this.postalCodeType = Selector('#postal-code');
         this.continueButton = Selector('#continue');
         this.finishButton = Selector('#finish');
-        this.orderfinishBanner = Selector('#checkout_complete_container > h2');
+        this.orderfinishBanner = Selector('.complete-header');
     }
 
 
