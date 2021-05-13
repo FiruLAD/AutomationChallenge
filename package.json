@@ -1,0 +1,23 @@
+{
+  "name": "automationfwcafe",
+  "version": "1.0.0",
+  "description": "Automation Challengue Framework",
+  "main": "index.js",
+  "dependencies": {
+    "testcafe": "^1.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npx testcafe firefox ./fixtures --hostname localhost"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FiruLAD/AutomationChallenge.git"
+  },
+  "author": "Ricardo Castanon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FiruLAD/AutomationChallenge/issues"
+  },
+  "homepage": "https://github.com/FiruLAD/AutomationChallenge#readme"
+}

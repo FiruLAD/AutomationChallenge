@@ -15,7 +15,7 @@ const cartpage = new cartPage()
 fixture`Automation Challenge `
     .page `https://www.saucedemo.com/`;
 
-test('Login with a valid user', async t => {
+/*test('Login with a valid user', async t => {
     await loginpage.login('standard_user', 'secret_sauce');
 });
 
@@ -51,7 +51,7 @@ test('Add the specific product ‘Sauce Labs Onesie’ to the shopping cart', as
     await productspage.productToCart('Sauce Labs Onesie');
     await productspage.cartClick();
     await productspage.checkProductInCart('Sauce Labs Onesie');
-});
+});*/
 
 test('Complete a purchase', async t => {
     await loginpage.login('standard_user', 'secret_sauce');

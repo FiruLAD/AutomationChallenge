@@ -2,12 +2,12 @@ import {t, Selector } from 'testcafe';
 
 export default class productsPage {
     constructor () {
-        this.productsHeader = Selector('#header_container > div.header_secondary_container > span');
+        this.productsHeader = Selector('.title');
         this.burgerButton = Selector('#react-burger-menu-btn')
         this.logoutButton = Selector('#logout_sidebar_link')
         this.loginButton = Selector('#login-button');
-        this.sortButton = Selector('#header_container > div.header_secondary_container > div.right_component > span > select');
-        this.activeSortOption = Selector('#header_container > div.header_secondary_container > div.right_component > span > span');
+        this.sortButton = Selector('.product_sort_container');
+        this.activeSortOption = Selector('.active_option');
         this.SauceLabsBackpackCart = Selector('#add-to-cart-sauce-labs-backpack');
         this.SauceLabsBikeLightCart = Selector('#add-to-cart-sauce-labs-bike-light');
         this.SauceLabsBoltTShirtCart = Selector('#add-to-cart-sauce-labs-onesie');

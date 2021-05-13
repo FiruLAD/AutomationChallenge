@@ -5,8 +5,8 @@ export default class loginPage {
         this.userName = Selector('#user-name');
         this.passWord = Selector('#password');
         this.loginButton = Selector('#login-button');
-        this.productsHeader = Selector('#header_container > div.header_secondary_container > span');
-        this.loginInvalidMessage = Selector('#login_button_container > div > form > div.error-message-container.error > h3')
+        this.productsHeader = Selector('.title');
+        this.loginInvalidMessage = Selector('.error-button')
     }
 
 
